@@ -1,6 +1,6 @@
 {
   "name": "wave",
-  "version": "0.0.2",
+  "version": "0.0.0",
   "type": "module",
   "scripts": {
     "postinstall": "node ./scripts/rename/rename.js && npm run cleanup",
@@ -13,7 +13,7 @@
     "commit": "cz",
     "test": "standard-version",
     "pre-release": "node ./scripts/release/release.js",
-    "release": "git commit --allow-empty  -m \"chore: release 0.0.0\" && git push origin main --tags",
+    "release": "git commit --allow-empty  -m \"chore: release 0.0.0\" && git push origin main --follow-tags",
     "update": "git pull && node release.js"
   },
   "files": [
