@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.2](https://github.com/Waveeeeeeeeeeeeeeeeeeeeeeeeeeeee/Wave/compare/v0.0.1...v0.0.2) (2025-01-26)
+
+
+### Features
+
+* **architecture:** add FSD-way to project ([10a548b](https://github.com/Waveeeeeeeeeeeeeeeeeeeeeeeeeeeee/Wave/commit/10a548ba63ee11a5c7c64386df545be9aa36e5ae))
+
 ### 0.0.1 (2025-01-26)
 
 
