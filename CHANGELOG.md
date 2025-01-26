@@ -1,8 +1,16 @@
 # Changelog
 
-## [0.0.1](https://github.com/Waveeeeeeeeeeeeeeeeeeeeeeeeeeeee/Wave/compare/v0.0.0...v0.0.1) (2025-01-26)
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+### 0.0.2 (2025-01-26)
 
 
-### Miscellaneous
+### Features
 
-* release 0.0.0 ([b61d136](https://github.com/Waveeeeeeeeeeeeeeeeeeeeeeeeeeeee/Wave/commit/b61d1369c5a593072efa5a2cc4c441aecc76f8cd))
+* **init:** init project with deps ([b5cb45c](https://github.com/Waveeeeeeeeeeeeeeeeeeeeeeeeeeeee/Wave/commit/b5cb45cc498b91cef709638bdb28acb7d9a7b7b4))
+
+
+### Bug Fixes
+
+* **package.json:** fix version ([5e9e6f8](https://github.com/Waveeeeeeeeeeeeeeeeeeeeeeeeeeeee/Wave/commit/5e9e6f8944058f0e834da4a5b7c720783f0a560a))
+* **t:** t ([0c66111](https://github.com/Waveeeeeeeeeeeeeeeeeeeeeeeeeeeee/Wave/commit/0c66111baef6f2bd14c292e6d7f6659b8d5d688d))
