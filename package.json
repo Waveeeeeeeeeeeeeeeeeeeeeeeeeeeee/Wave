@@ -1,6 +1,6 @@
 {
   "name": "wave",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "postinstall": "node ./scripts/rename/rename.js && npm run cleanup",
