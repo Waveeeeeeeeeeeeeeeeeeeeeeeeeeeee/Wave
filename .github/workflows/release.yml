@@ -1,0 +1,36 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: write
+
+jobs:
+  create-release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Get release notes
+        id: changelog
+        run: |
+          if [ -f CHANGELOG.md ]; then
+            RELEASE_BODY=$(tail -n +2 CHANGELOG.md | head -n 20)
+          else
+            RELEASE_BODY="No changelog available."
+          fi
+          echo "$RELEASE_BODY" > release_notes.txt
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ github.ref_name }}
+          body_path: release_notes.txt
+          draft: false
+          prerelease: false
