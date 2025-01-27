@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.3](https://github.com/Waveeeeeeeeeeeeeeeeeeeeeeeeeeeee/Wave/compare/v0.0.2...v0.0.3) (2025-01-27)
+
+
+### Features
+
+* **sanity:** add new structure for sanity desk tool ([f3860f3](https://github.com/Waveeeeeeeeeeeeeeeeeeeeeeeeeeeee/Wave/commit/f3860f3985ea1669b4961d0d5512ff7bbf81b620))
+
 ### [0.0.2](https://github.com/Waveeeeeeeeeeeeeeeeeeeeeeeeeeeee/Wave/compare/v0.0.1...v0.0.2) (2025-01-26)
 
 
