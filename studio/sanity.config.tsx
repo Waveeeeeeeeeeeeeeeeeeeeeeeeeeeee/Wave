@@ -3,6 +3,7 @@ import {structureTool} from 'sanity/structure'
 import {visionTool} from '@sanity/vision'
 import {schemaTypes} from './schemaTypes'
 import {structure} from './structure'
+import {ruKZLocale} from '@sanity/locale-ru-kz'
 
 export default defineConfig({
   name: 'default',
@@ -16,9 +17,14 @@ export default defineConfig({
       structure,
     }),
     visionTool(),
+    ruKZLocale(),
   ],
 
   schema: {
     types: schemaTypes,
+  },
+
+  studio: {
+    components: {},
   },
 })
